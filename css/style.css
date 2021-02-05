@@ -1,0 +1,16 @@
+*{
+  outline: 1px solid black;
+  box-sizing: border-box;
+}
+
+form{
+  display: flex;
+}
+
+section{
+  flex: 1;
+}
+
+#box{
+  flex: 2;
+}

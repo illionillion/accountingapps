@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>会計アプリ</title>
+</head>
+<body>
+  
+  <header><h1>会計アプリ</h1></header>
+  <main>
+    <form action="" method="POST">
+      <!-- <header><h2>会計</h2></header> -->
+      <section>
+        <!-- <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul> -->
+        <table>
+          <thead>
+              <tr>
+                  <th colspan="4">会計</th>
+              </tr>
+          </thead>
+          <tbody id="sum_table">
+              <tr>
+                  <td>No</td>
+                  <td>商品名</td>
+                  <td>値段</td>
+                  <td>削除</td>
+              </tr>
+              <!-- <tr>
+                  <td>1</td>
+                  <td>ペン</td>
+                  <td>100</td>
+                  <td><input type="button" value="削除"></td>
+              </tr> -->
+          </tbody>
+      </table>
+      </section>
+      <div id="box">
+        <div><h3>合計</h3><input type="number" name="" id="sum_box" readonly> 円 <input type="button" value="リセット"></div>
+        <div><h3>追加</h3><input type="text" name="" id="content_text"> / <input type="number" name="" id="content_value"> 円 <input type="button" id="add" value="追加"></div>
+      </div>
+    </form>
+  </main>
+</body>
+<script src="js/program.js"></script>
+</html>
